@@ -1,36 +1,32 @@
 <?php 
-  class Employeedata {
+  class dataSH {
     // DB stuff
     private $conn;
-    private $table = 'employeeData';
+    private $table = 'dataSH';
 
     // Post Properties
     public $id;
-    public $noIC;
-    public $nama;
-    public $emel;
-    public $sex;
-    public $dob;
-    public $pob;
-    public $nationality;
-    public $race;
-    public $religion;
-    public $marriage;
-    public $childrenNo;
-    public $address;
-    public $noTel;
-    public $lesenNo;
-    public $lesenExp;
-    public $noPlate;
-    public $roadtaxNo;
-    public $vehicleModel;
-    public $vehicleYear;
-    public $pdrmRecordNo;
-    public $caseNo;
-    public $employeeStatus;
-    public $stationCode;
-    public $accNum;
-    public $codeBank;
+    public $username;
+    public $negeri;
+    public $tarikhBukaSH;
+    public $tarikhTutupSH;
+    public $tarikhPenilaianSH;
+    public $tarikhSSTSH;
+    public $namaPembekal;
+    public $nilaiSH;
+    public $tarikhCO;
+    public $bilJudulPesan;
+    public $bilNaskhahPesan;
+    public $bilNaskhahBekal;
+    public $peratusBekal;
+    public $statusBekal;
+    public $statusTuntut;
+    public $statusBayar;
+    public $remark;
+    public $colorBar;
+    public $latitude;
+    public $longitude;
+    public $timestamp;
 
     
 
