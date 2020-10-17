@@ -11,7 +11,7 @@
   $db = $database->connect();
 
   // Instantiate blog post object
-  $post = new DataSH($db);
+  $post = new Datash($db);
 
   // Blog post query
   $result = $post->read();
