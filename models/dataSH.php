@@ -1,5 +1,5 @@
 <?php 
-  class dataSH {
+  class DataSH {
     // DB stuff
     private $conn;
     private $table = 'dataSH';
