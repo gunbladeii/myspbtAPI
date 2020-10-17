@@ -27,9 +27,6 @@
     public $latitude;
     public $longitude;
 
-    
-
-
     // Constructor with DB
     public function __construct($db) {
       $this->conn = $db;
