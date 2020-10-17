@@ -38,10 +38,10 @@
     // Get employeeData
     public function read() {
       // Create query
-      $query = '   SELECT id,username,negeri,tarikhBukaSH,tarikhTutupSH,tarikhPenilaianSH,tarikhSSTSH,namaPembekal,nilaiSH,tarikhCO,bilJudulPesan,bilNaskhahPesan,bilNaskhahBekal,peratusBekal,statusBekal,statusTuntut,statusBayar,remark,colorBar,latitude,longitude
+      $query = 'SELECT id,username,negeri,tarikhBukaSH,tarikhTutupSH,tarikhPenilaianSH,tarikhSSTSH,namaPembekal,nilaiSH,tarikhCO,bilJudulPesan,bilNaskhahPesan,bilNaskhahBekal,peratusBekal,statusBekal,statusTuntut,statusBayar,remark,colorBar,latitude,longitude
                                 FROM ' . this->table . ' 
                                 ORDER BY
-                                  nama ASC';
+                                  negeri ASC';
       
       // Prepare statement
       $stmt = $this->conn->prepare($query);
