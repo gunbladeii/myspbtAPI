@@ -26,7 +26,6 @@
     public $colorBar;
     public $latitude;
     public $longitude;
-    public $timestamp;
 
     
 
@@ -39,8 +38,8 @@
     // Get employeeData
     public function read() {
       // Create query
-      $query = 'SELECT id, noIC, nama, emel, sex, dob, pob, nationality, race, religion, marriage, childrenNo, address, noTel, lesenNo, lesenExp, noPlate, roadtaxNo, vehicleModel, vehicleYear, pdrmRecordNo, caseNo, employeeStatus, stationCode, accNum, codeBank
-                                FROM ' . $this->table . ' 
+      $query = '   SELECT id,username,negeri,tarikhBukaSH,tarikhTutupSH,tarikhPenilaianSH,tarikhSSTSH,namaPembekal,nilaiSH,tarikhCO,bilJudulPesan,bilNaskhahPesan,bilNaskhahBekal,peratusBekal,statusBekal,statusTuntut,statusBayar,remark,colorBar,latitude,longitude
+                                FROM ' . this->table . ' 
                                 ORDER BY
                                   nama ASC';
       

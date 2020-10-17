@@ -28,13 +28,27 @@
       extract($row);
 
       $post_item = array(
-        'id' => $id,
-        'noIC' => $noIC,
-        'nama' => $nama,
-        'emel' => $emel,
-        'sex' => $sex,
-        'stationCode' => $stationCode,
-        'employeeStatus' => $employeeStatus
+         'id' => $id,
+         'username' => $username,
+         'negeri' => $negeri,
+         'tarikhBukaSH' => $tarikhBukaSH,
+         'tarikhTutupSH' => $tarikhTutupSH,
+         'tarikhPenilaianSH' => $tarikhPenilaianSH,
+         'tarikhSSTSH' => $tarikhSSTSH,
+         'namaPembekal' => $namaPembekal,
+         'nilaiSH' => $nilaiSH,
+         'tarikhCO' => $tarikhCO,
+         'bilJudulPesan' => $bilJudulPesan,
+         'bilNaskhahPesan' => $bilNaskhahPesan,
+         'bilNaskhahBekal' => $bilNaskhahBekal,
+         'peratusBekal' => $peratusBekal,
+         'statusBekal' => $statusBekal,
+         'statusTuntut' => $statusTuntut,
+         'statusBayar' => $statusBayar,
+         'remark' => $remark,
+         'colorBar' => $colorBar,
+         'latitude' => $latitude,
+         'longitude' => $longitude
       );
 
       // Push to "data"
